@@ -4,7 +4,7 @@
 ## 环境搭建
 
 ### 运行环境
-npm install
+npm install  
 npm run dev
 
 
