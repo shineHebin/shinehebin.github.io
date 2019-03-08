@@ -1,21 +1,18 @@
-# boke
+# shineHebin
+这是一个基于 github page 和 github api 搭建的单页面静态博客，参考了cobish个人博客，自己用vue实现的,点击[「这里」](https://shinehebin.github.io/#/)查看博客。
 
-> A Vue.js project
+## 环境搭建
 
-## Build Setup
-
-``` bash
-# install dependencies
+### 运行环境
 npm install
-
-# serve with hot reload at localhost:8080
 npm run dev
 
-# build for production with minification
-npm run build
 
-# build for production and view the bundle analyzer report
-npm run build --report
-```
+### 技术栈
+vue2 + vuex + vue-router + webpack + ES66 
 
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+### 浏览器兼容
+Chrome
+Firefox
+Safari
+IE10+
