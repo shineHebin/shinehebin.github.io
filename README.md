@@ -11,8 +11,9 @@ npm run dev
 ### 技术栈
 vue2 + vuex + vue-router + webpack + ES6
 
+
 ### 浏览器兼容
-Chrome
-Firefox
-Safari
-IE10+
+Chrome  
+Firefox  
+Safari  
+IE10+  
