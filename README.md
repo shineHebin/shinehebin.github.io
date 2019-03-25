@@ -9,7 +9,7 @@ npm run dev
 
 
 ### 技术栈
-vue2 + vuex + vue-router + webpack + ES66 
+vue2 + vuex + vue-router + webpack + ES6
 
 ### 浏览器兼容
 Chrome
