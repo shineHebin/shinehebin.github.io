@@ -47,12 +47,12 @@ html {
   display: none !important;
 }
 .lists {
-  width: 50%;
-  min-width: 200px;
-  max-width: 980px;
-  overflow: hidden;
-  margin: 40px auto 0;
-  padding: 0 10px;
+  max-width: 650px;
+  margin: 10px auto 0;
+  padding: 0 20px 20px;
+  line-height: 26px;
+  color: #555;
+  word-wrap: break-word;
 }
 .category-title {
   color: #666;
