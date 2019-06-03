@@ -28,7 +28,7 @@ export default {
       contents: {}
     };
   },
-  created() {
+  mounted() {
     this.$axios
       .get(
         "https://api.github.com/repos/shineHebin/shineHebin.github.io/issues"

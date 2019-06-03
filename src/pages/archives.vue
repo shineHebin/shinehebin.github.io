@@ -24,7 +24,7 @@ export default {
       flags: []
     };
   },
-  created() {
+  mounted (){
     this.$axios(
       "https://api.github.com/repos/shineHebin/shinehebin.github.io/issues"
     )

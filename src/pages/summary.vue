@@ -32,7 +32,7 @@ export default {
       return marked(this.results.body || "", { sanitize: true });
     }
   },
-  created() {
+  mounted() {
     this.$axios(
       "https://api.github.com/repos/shineHebin/shinehebin.github.io/issues/" +
         this.$route.params.id
