@@ -29,9 +29,6 @@ a:hover {
 a {
   text-decoration: none;
 }
-li {
-  list-style: none;
-}
 body,
 html {
   font-size: 14px;

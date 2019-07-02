@@ -38,6 +38,22 @@
     margin-bottom: 16px;
 }
 
+.summary-content p code {
+    display: inline-block;
+    margin: 0 4px;
+    padding: 0 4px;
+    color: #fd0e39;
+    border-radius: 4px;
+    line-height: 20px;
+    background: #f5f5f5;
+    border: 1px solid #eee;
+}
+
+.summary-content ul,
+.summary-content ol {
+    padding-left: 30px;
+}
+
 .summary-content h3 {
     font-size: 18px;
 }
