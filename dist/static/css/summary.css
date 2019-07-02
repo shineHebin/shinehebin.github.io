@@ -38,7 +38,8 @@
     margin-bottom: 16px;
 }
 
-.summary-content p code {
+.summary-content p code,
+.summary-content ul li code {
     display: inline-block;
     margin: 0 4px;
     padding: 0 4px;
