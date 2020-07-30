@@ -1,20 +1,14 @@
 <template>
   <div class="lists">
-    <div
-      v-for="(value,key,index) in contents"
-      :key="index"
-    >
+    <div v-for="(value,key,index) in contents" :key="index">
       <h2 class="category-title">{{ key }}</h2>
       <ul class="lists-content">
-        <li
-          v-for="(item,index) in value"
-          :key="index">
+        <li v-for="(item,index) in value" :key="index">
           <router-link :to="{name:'summary',params:{id:item.number}}">{{item.title}}</router-link>
           <span class="category-time">{{item.created_at|formatDate}}</span>
         </li>
       </ul>
     </div>
-
   </div>
 </template>
 

@@ -1,18 +1,11 @@
 <template>
   <div class="header-menu">
-    <a
-      class="header-logo"
-      href="https://github.com/shineHebin?tab=repositories"
-    ><img
-        :src="logo"
-        alt=""
-      /></a>
+    <a class="header-logo" href="https://github.com/shineHebin?tab=repositories">
+      <img :src="logo" alt="">
+    </a>
     <ul class="menu">
       <li>
-        <router-link
-          to="/"
-          exact
-        >首页</router-link>
+        <router-link to="/" exact>首页</router-link>
       </li>
       <li>
         <router-link to="/archives">全部</router-link>

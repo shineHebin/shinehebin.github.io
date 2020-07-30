@@ -1,10 +1,7 @@
 <template>
-  <div
-    id="app"
-    v-cloak
-  >
-    <header-menu />
-    <router-view />
+  <div id="app" v-cloak>
+    <header-menu/>
+    <router-view/>
   </div>
 </template>
 

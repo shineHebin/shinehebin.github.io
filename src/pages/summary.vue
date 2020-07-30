@@ -3,17 +3,10 @@
     <div class="lists">
       <h1 class="summary-title">{{results.title}}</h1>
       <p class="summary-time">{{results.created_at | formatDate}}</p>
-      <div
-        class="summary-content"
-        v-html="compiledMarkdown"
-        v-highlight
-      ></div>
+      <div class="summary-content" v-html="compiledMarkdown" v-highlight></div>
     </div>
     <div class="lists">
-      <button
-        class="summary-comment"
-        @click="handleClick"
-      > 点击评论 </button>
+      <button class="summary-comment" @click="handleClick">点击评论</button>
     </div>
   </div>
 </template>
@@ -28,18 +21,18 @@ export default {
     };
   },
   computed: {
-    compiledMarkdown: function() {
+    compiledMarkdown: function () {
       return marked(this.results.body || "", { sanitize: true });
     }
   },
   mounted() {
     this.$axios(
       "https://api.github.com/repos/shineHebin/shinehebin.github.io/issues/" +
-        this.$route.params.id
+      this.$route.params.id
     )
       .then(res => {
         this.results = res.data;
-       // console.log(res.data);
+        // console.log(res.data);
       })
       .catch(error => {
         console.log(error);
@@ -52,10 +45,10 @@ export default {
     }
   },
   methods: {
-    handleClick: function() {
+    handleClick: function () {
       let url = `https://github.com/shineHebin/shineHebin.github.io/issues/${
         this.results.number
-      }`;
+        }`;
       window.location.href = url;
     }
   }
